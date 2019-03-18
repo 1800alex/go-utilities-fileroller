@@ -1,0 +1,15 @@
+language: go
+
+go:
+    - 1.12.x
+    - master
+
+env:
+    - GOOS=linux GOARCH=386
+    - GOOS=linux GOARCH=arm
+
+before_install:
+    - go get -v github.com/stretchr/testify/assert
+    - go get -v github.com/spf13/afero
+    - go get -v github.com/1800alex/go-utilities-password
+
