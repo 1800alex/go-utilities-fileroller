@@ -1,8 +1,8 @@
-# fileroller [![GoDoc](https://godoc.org/github.com/1800alex/go-utilities-fileroller?status.svg)](https://godoc.org/github.com/1800alex/go-utilities-fileroller)
+# fileroller
 [![Build Status](https://travis-ci.com/1800alex/go-utilities-fileroller.svg?branch=master)](https://travis-ci.com/1800alex/go-utilities-fileroller)
 [![Coverage Status](https://coveralls.io/repos/github/1800alex/go-utilities-fileroller/badge.svg?branch=master)](https://coveralls.io/github/1800alex/go-utilities-fileroller?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/1800alex/go-utilities-fileroller)](https://goreportcard.com/report/github.com/1800alex/go-utilities-fileroller)
-
+[![GoDoc](https://godoc.org/github.com/1800alex/go-utilities-fileroller?status.svg)](https://godoc.org/github.com/1800alex/go-utilities-fileroller)
 
 Package fileroller is a package capable rolling files when they becoming > a certain size The fileroller has the following features: - Log rolling with configurable size - Configurable number of logs
 
